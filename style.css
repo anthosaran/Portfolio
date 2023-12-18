@@ -2,3 +2,42 @@ body {
   margin: 0;
   padding: 0;
 }
+
+a{ 
+     text-decoration: none;
+
+}
+
+ul {
+
+     list-style-type: none;
+
+}
+
+.nav-container {
+
+     background-color: rgb(209, 196, 177);
+
+}
+
+.nav-container  ul{
+ display: flex;
+ flex-direction: row; 
+ justify-content: space-between; 
+ align-items: center;
+
+ margin-left: 100px;
+ margin-right: 100px;
+ 
+
+}
+
+
+.nav-container ul .important-links {
+
+ display: flex; 
+ gap: 20px; 
+ border: solid 2px #000; 
+
+}
+
